@@ -1,0 +1,17 @@
+<div>
+    <mat-card class="article-card">
+        <div class="article-title-container item-pointer">
+            <mat-card-title>{{ articleTitle }}</mat-card-title>
+            <mat-icon>close</mat-icon>
+        </div>
+        
+        <mat-card-subtitle>{{ articleAuthor }}</mat-card-subtitle>
+        <mat-card-content>
+          <p>{{ articleBody }}</p>
+        </mat-card-content>
+        <mat-card-actions class="article-card-actions">
+            <button class="item-pointer" mat-raised-button color="primary" (click)="navigateToArticle()">Open article</button>
+            <button class="item-pointer" mat-raised-button color="secondary">Edit article</button>
+        </mat-card-actions>
+      </mat-card>
+</div>

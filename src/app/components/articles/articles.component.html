@@ -1,0 +1,8 @@
+<mat-list role="list">
+    <div class="articles-container">
+
+      <app-article *ngFor="let article of articles" class="article-card" [id]="article.id" [title]="article.title" [author]="article.author" [body]="article.body"></app-article>
+
+    </div>    
+
+  </mat-list>

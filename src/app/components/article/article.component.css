@@ -1,0 +1,8 @@
+.article-card-actions {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.article-title-container {
+    display: flex;
+    justify-content: space-between;
+}
